@@ -44,7 +44,7 @@ export function AttendeeDrawer({ open, onOpenChange, events, selectedEventId, on
             </Select>
           </div>
           <div className="space-y-2"><Label htmlFor="attendee-name">Name</Label><Input id="attendee-name" value={form.name} onChange={(e) => setForm({...form, name: e.target.value})} placeholder="Full name" /></div>
-          <div className="space-y-2"><Label htmlFor="attendee-email">Email</Label><Input id="attendee-email" type="email" value={form.email} onChange={(e) => setForm({...form, email: e.target.value})} placeholder="student@rbu.ac.in" /></div>
+          <div className="space-y-2"><Label htmlFor="attendee-email">Email</Label><Input id="attendee-email" type="email" value={form.email} onChange={(e) => setForm({...form, email: e.target.value})} placeholder="student@rbunagpur.in" /></div>
           <div className="space-y-2">
             <Label>Ticket type</Label>
             <Select value={form.ticketType} onValueChange={(value) => setForm({...form, ticketType: value})}>
